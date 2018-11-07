@@ -1,18 +1,12 @@
 
 body {
   background-color:pink;
-  font-family:arial;
 
 }
     h1 {
       font-family:arial;
       font-size:300%;
-} body {
-  background-color:powderblue;
-  font-family:arial;
-
-}
-    h1 {
-      font-family:arial;
-      font-size:300%;
+} 
+p {
+  font-family:"Times New Roman", Times, serif;
 }
