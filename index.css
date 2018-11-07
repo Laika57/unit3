@@ -1,13 +1,18 @@
 
 body {
+  text-align:center;
   background-color:powderblue;
 
 }
     h1 {
+      text-align:center;
       font-family:arial;
       font-size:300%;
 } 
 p {
+  text-align:center;
   font-size:100%;
   font-family:"Times New Roman", Times, serif;
 }
+/* I added "text-align:center;" to all the attributes so that there would be no mistake. It is easier to do all of them rather than have to
+commit 30 times just to get it right.  */ 
