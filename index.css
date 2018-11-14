@@ -1,21 +1,33 @@
-
+/* This is the index.css file. */
 body {
-  text-align:center;
   background-color:powderblue;
-  padding-left: 500px;
-  padding-right: 500px;
-
 }
     h1 {
-      text-align:center;
       font-family:arial;
       font-size:300%;
-} 
+}
 p {
-  text-align:center;
   font-size:100%;
   font-family:"Times New Roman", Times, serif;
 }
-/* I added "text-align:center;" to all the attributes so that there would be no mistake. It is easier to do all of them rather than have to
-commit 30 times just to get it right.  */ 
-/* Having it centered didn't work well enough to put the text into the middle. So I added padding on both sides to make it into the middle.*/
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+  position: sticky;
+  top:0;
+}
+li{
+  float:left;
+}
+li a{
+  color: white;
+  padding: 14px 16px;
+  display: block;
+
+}
+li a:hover{
+  background-color: #111;
+}
